@@ -1,0 +1,24 @@
+server:
+    port: 7001
+spring:
+    application:
+        name: spike-web
+    data:
+        redis:
+            host: 121.37.154.99
+            port: 6379
+            database: 0
+            lettuce:
+                pool:
+                    enabled: true
+                    max-active: 100
+                    max-idle: 20
+                    min-idle: 5
+            password: zgt123
+rocketmq:
+    name-server: 172.31.156.45:9876
+    producer:
+        group: jio_group
+        send-message-timeout: 3000
+        retry-times-when-send-async-failed: 2
+        max-message-size: 4194304
