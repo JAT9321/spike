@@ -1,4 +1,14 @@
 # RocketMQ+Redis 实现秒杀
+
+springboot + Redis + Mysql + RocketMQ + Security + ...
+
+场景 ： 抢优惠卷...
+
+设计seckill-web 接收处理秒杀请求
+
+设计seckill-service 处理秒杀真实业务
+
+
 ![img.png](img.png)
 
 RocketMQ 学习笔记: www.zgtsky.top
